@@ -19,3 +19,43 @@
     height: 100%;
     width: 100%;
 }
+
+#home h1{
+    font-size: 60px;
+    color: var(--one);
+    padding-top: 23%;
+}
+
+/*SECTIONS*/
+.section-hr {
+    height: 5px;
+    width: 40%;
+    background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
+
+.section .content {
+    padding: 20px;
+}
+
+.section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 300px;
+    font-size: 50px;
+    padding: 10 10 10 0;
+    color: var(--font-color);
+}
+
+.section-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 20 10 10 10;
+    color: var(--font-color);
+}
+
+b.section-text {
+    color: var(--primary-color);
+}
+
+.section {
+    background-color: var(--bg-color);
+}
