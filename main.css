@@ -1,2 +1,21 @@
+/*COLOUR THEME*/
+:root{
+    --one: #fff;
+}
+
+/*PREREQUISITES*/
 *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*HOME*/
+#home{
+    background-image: url(images/space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
 }
