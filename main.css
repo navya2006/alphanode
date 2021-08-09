@@ -18,12 +18,16 @@
     background-attachment: fixed;
     height: 100%;
     width: 100%;
+    padding-top: 23%;
 }
 
 #home h1{
-    font-size: 60px;
+    font-size: 100px;
+    font-family: 'Poiret One', cursive;
     color: var(--one);
-    padding-top: 23%;
+    text-align: center;
+    padding-top: 1%;
+    text-shadow: 2px 2px 3px var(--two);
 }
 
 /*SECTIONS*/
