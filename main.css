@@ -2,6 +2,10 @@
 :root{
     --one: #fff;
     --two: #000;
+    --three: #f9429e;
+    --four: #1834f5;
+    --five: #fa7c00;
+    --six:#B7E9F7;
 }
 
 /* PREREQUISITES */
@@ -17,32 +21,50 @@ body{
 
 /* HOME */
 #home{
-    background-image: url(images/space.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
-    width: 100%;
+    height:100%;
+	width:100%;
+	background-color:rgba(0,0,0,0.6);
+	overflow-x:hidden;
+}
+
+#home::before {
+	position:absolute;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+    background-image: url(images/final.gif);
+	height:100%;
+	width:100%;
+	z-index:-1;
+	animation: changebg 40s infinite;
+	content:"";
 }
 
 #home h1{
     font-size: 100px;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Akaya Kanadaka', cursive;
     color: var(--one);
     text-align: center;
-    text-shadow: 2px 2px 3px var(--two);
+}
+
+#home h2{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--one);
+    text-align: center;
 }
 
 /* NAVBAR */
 #fp-nav ul li a span {
-    background-color: #fff !important;
+    background-color: var(--five) !important;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
 }
 
 #fp-nav ul li a.active span {
-    background-color: #fff !important;
+    background-color: var(--five) !important;
 }
 
 #fp-nav ul li .fp-tooltip {
-    color: #fff !important;
+    color: var(--five) !important;
+    font-family:'Poiret One', cursive;
 }
