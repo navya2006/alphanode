@@ -1,16 +1,21 @@
-/*COLOUR THEME*/
+/* COLOURTHEME */
 :root{
     --one: #fff;
+    --two: #000;
 }
 
-/*PREREQUISITES*/
+/* PREREQUISITES */
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-/*HOME*/
+body{
+    background-color: var(--two);
+}
+
+/* HOME */
 #home{
     background-image: url(images/space.jpg);
     background-repeat: no-repeat;
@@ -29,9 +34,8 @@
 }
 
 /* NAVBAR */
-
 #fp-nav ul li a span {
-    background-color: var(--font-color) !important;
+    background-color: #fff !important;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
 }
 
