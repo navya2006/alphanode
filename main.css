@@ -6,6 +6,33 @@
     --four: #1834f5;
     --five: #fa7c00;
     --six:#B7E9F7;
+    --seven: 
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 8px #fff,
+    0 0 16px #f9429e,
+    0 0 20px #f9429e,
+    0 0 32px #f9429e,
+    0 0 40px #f9429e,
+    0 0 64px #f9429e;
+    --eight: 
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 8px #fff,
+    0 0 16px #B7E9F7,
+    0 0 20px #B7E9F7,
+    0 0 32px #B7E9F7,
+    0 0 40px #B7E9F7,
+    0 0 64px #B7E9F7;
+    --nine: 
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 8px #fff,
+    0 0 16px #fa7c00,
+    0 0 20px #fa7c00,
+    0 0 32px #fa7c00,
+    0 0 40px #fa7c00,
+    0 0 64px #fa7c00;
 }
 
 /* PREREQUISITES */
@@ -74,9 +101,40 @@ body{
     background-color: var(--two);
 }
 
+.module {
+    max-width: 250px;
+    padding: 1rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+  }
+
 .icon{
-    font-size: 13vw;
-    width: 0.8vw;
+    font-size: 170px;
     color: #fff;
 	text-align:center;
+    margin-left: 4%;
+    text-shadow: var(--eight);
 }
+
+.icon2{
+    font-size: 90px;
+    margin-left: 4%;
+    color: #fff;
+    text-shadow: var(--seven);
+}
+
+.icon3{
+    font-size: 120px;
+    margin-left: 10%;
+    margin-top: -40%;
+    color: #fff;
+    text-shadow: var(--nine);
+}
+
