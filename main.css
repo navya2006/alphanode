@@ -19,11 +19,26 @@ body{
     background-color: var(--two);
 }
 
+/* NAVBAR */
+#fp-nav ul li a span {
+    background-color: var(--five) !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+#fp-nav ul li a.active span {
+    background-color: var(--five) !important;
+}
+
+#fp-nav ul li .fp-tooltip {
+    color: var(--five) !important;
+    font-family:'Poiret One', cursive;
+}
+
 /* HOME */
 #home{
     height:100%;
 	width:100%;
-	background-color:rgba(0,0,0,0.6);
+	background-color:rgba(0,0,0,0.5);
 	overflow-x:hidden;
 }
 
@@ -54,17 +69,14 @@ body{
     text-align: center;
 }
 
-/* NAVBAR */
-#fp-nav ul li a span {
-    background-color: var(--five) !important;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+/*ABOUT*/
+.about{
+    background-color: var(--two);
 }
 
-#fp-nav ul li a.active span {
-    background-color: var(--five) !important;
-}
-
-#fp-nav ul li .fp-tooltip {
-    color: var(--five) !important;
-    font-family:'Poiret One', cursive;
+.icon{
+    font-size: 13vw;
+    width: 0.8vw;
+    color: #fff;
+	text-align:center;
 }
