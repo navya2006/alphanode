@@ -94,7 +94,7 @@ body{
 }
 
 #home h1{
-    font-size: 100px;
+    font-size: 90px;
     font-family: 'Lato', sans-serif;
     color: var(--one);
     text-align: center;
@@ -106,7 +106,6 @@ body{
     font-family: 'Raleway', sans-serif;
     color: var(--one);
     text-align: center;
-    padding: 20px;
 }
 
 /*ABOUT*/
@@ -120,19 +119,17 @@ body{
     text-align: right;
     padding: 20px;
     font-family:'Raleway', sans-serif;
+    padding: 4%;
 }
 .line{
-    border-right: 2px solid var(--seven);
+    border-right: 2px solid var(--eight);
 }
 
 .about p{
     color: var(--seven);
     font-size: 25px;
-    padding: 2%;
+    padding: 3%;
     font-family: 'Poiret One', cursive;
-}
-.extra{
-    padding-right: 30px;
 }
 
 .icon{
@@ -184,6 +181,7 @@ body{
     font-size: 70px;
     color: var(--seven);
     font-family:'Raleway', sans-serif;
+    padding: 15px;
 }
 
 .prob p{
@@ -191,6 +189,30 @@ body{
     color: var(--six);
     font-family:'Poiret One', cursive;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 
+/*THE PRODUCT*/
+.sol{
+    overflow-x: hidden;
+}
+
+.sol h1{
+    font-size: 70px;
+    color: var(--eight);
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 25px;
+}
+
+.sol img{
+    height: 500px;
+    width: 400px;
+    border-radius: 5%;
+}
+
+.sol p{
+    font-size: 25px;
+    color: var(--seven);
+    font-family:'Poiret One', cursive;
+    padding: 10px;
+}
