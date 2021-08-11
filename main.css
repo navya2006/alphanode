@@ -127,7 +127,7 @@ body{
 
 .about p{
     color: var(--seven);
-    font-size: 25px;
+    font-size: 23px;
     padding: 3%;
     font-family: 'Poiret One', cursive;
 }
@@ -185,7 +185,7 @@ body{
 }
 
 .prob p{
-    font-size: 25px;
+    font-size: 23px;
     color: var(--six);
     font-family:'Poiret One', cursive;
     text-align: center;
@@ -211,7 +211,7 @@ body{
 }
 
 .sol p{
-    font-size: 25px;
+    font-size: 23px;
     color: var(--seven);
     font-family:'Poiret One', cursive;
     padding: 10px;
