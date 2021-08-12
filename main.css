@@ -4,7 +4,7 @@
     --two: #000;
     --three: #f9429e;
     --four: #1834f5;
-    --five: #fa7c00;
+    --five: #bb00fa;
     --six:#B7E9F7;
     --seven: #d9d6d0;
     --eight: #d1568f;
@@ -75,8 +75,7 @@ body{
 #home::before {
 	position:absolute;
 	background-size:cover;
-	background-attachment:fixed;
-	background-position:center;
+	background-position:bottom;
     background-image: url(images/final.gif);
 	height:100%;
 	width:100%;
@@ -160,9 +159,9 @@ body{
 
 .prob::before{
     position:absolute;
-	background-size:cover;
-	background-attachment:fixed;
+	background-size: contain;
 	background-position:center;
+    background-repeat: no-repeat;
     background-image: url(images/neonbg.jpeg);
 	height:100%;
 	width:100%;
