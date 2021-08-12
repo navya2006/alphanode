@@ -11,25 +11,13 @@
     --nine: #405fc7;
     --pink: 
     0 0 2px #fff,
-    0 0 4px #fff,
-    0 0 8px #fff,
-    0 0 16px #f9429e,
-    0 0 20px #f9429e,
-    0 0 30px #f9429e;
+    0 0 16px #f9429e;
     --blue: 
     0 0 2px #fff,
-    0 0 4px #fff,
-    0 0 8px #fff,
-    0 0 16px #B7E9F7,
-    0 0 20px #B7E9F7,
-    0 0 32px #B7E9F7;
+    0 0 16px #B7E9F7;
     --orange: 
     0 0 2px #fff,
-    0 0 4px #fff,
-    0 0 8px #fff,
-    0 0 16px #fa7c00,
-    0 0 20px #fa7c00,
-    0 0 30px #fa7c00;
+    0 0 16px #fa7c00;
     --purple:
     32px 0 32px -34px #fff,
     32px 0 32px -34px #fff,
@@ -186,7 +174,7 @@ body{
 .prob h1{
     font-size: 70px;
     color: var(--seven);
-    font-family:'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 15px;
 }
 
@@ -207,9 +195,8 @@ body{
 .sol h1{
     font-size: 70px;
     color: var(--seven);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding-bottom: 25px;
-    text-shadow: var(--pink);
 }
 
 .sol img{
