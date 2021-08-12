@@ -102,6 +102,7 @@ body{
 /*ABOUT*/
 .about{
     background-color: var(--two);
+	padding-top:2vw;
 }
 
 .about h1{
