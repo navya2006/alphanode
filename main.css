@@ -15,27 +15,21 @@
     0 0 8px #fff,
     0 0 16px #f9429e,
     0 0 20px #f9429e,
-    0 0 32px #f9429e,
-    0 0 40px #f9429e,
-    0 0 64px #f9429e;
+    0 0 30px #f9429e;
     --blue: 
     0 0 2px #fff,
     0 0 4px #fff,
     0 0 8px #fff,
     0 0 16px #B7E9F7,
     0 0 20px #B7E9F7,
-    0 0 32px #B7E9F7,
-    0 0 40px #B7E9F7,
-    0 0 64px #B7E9F7;
+    0 0 32px #B7E9F7;
     --orange: 
     0 0 2px #fff,
     0 0 4px #fff,
     0 0 8px #fff,
     0 0 16px #fa7c00,
     0 0 20px #fa7c00,
-    0 0 32px #fa7c00,
-    0 0 40px #fa7c00,
-    0 0 64px #fa7c00;
+    0 0 30px #fa7c00;
     --purple:
     32px 0 32px -34px #fff,
     32px 0 32px -34px #fff,
@@ -45,6 +39,15 @@
     32px 0 32px -34px #bc13fe,
     32px 0 32px -34px #bc13fe,
     32px 0 32px -34px #bc13fe;
+    --dark:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 8px #fff,
+    0 0 16px #1834f5,
+    0 0 20px #1834f5,
+    0 0 32px #1834f5,
+    0 0 40px #1834f5,
+    0 0 64px #1834f5;
 }
 
 /* PREREQUISITES */
@@ -70,7 +73,7 @@ body{
 
 #fp-nav ul li .fp-tooltip {
     color: var(--five) !important;
-    font-family:'Poiret One', cursive;
+    font-family:'Poppins', sans-serif;
 }
 
 /* HOME */
@@ -114,12 +117,12 @@ body{
 }
 
 .about h1{
-    color: var(--nine);
-    font-size: 60px;
-    text-align: right;
+    color: var(--one);
+    font-size: 30px;
+    text-align: center;
     padding: 20px;
-    font-family:'Raleway', sans-serif;
-    padding: 4%;
+    font-family: 'Lato', sans-serif;
+    padding: 2%;
 }
 .line{
     border-right: 2px solid var(--eight);
@@ -127,34 +130,37 @@ body{
 
 .about p{
     color: var(--seven);
-    font-size: 23px;
-    padding: 3%;
-    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    padding: 2%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 .icon{
     font-size: 170px;
     color: #fff;
 	text-align:center;
-    margin-left: 4%;
-    text-shadow: var(--eight);
+    padding: 2%;
+    padding-bottom: 20px;
+    text-shadow: var(--pink);
 }
 
 .icon2{
-    font-size: 90px;
-    margin-left: 4%;
+    font-size: 170px;
     color: #fff;
-    text-shadow: var(--seven);
+	text-align:center;
+    padding: 2%;
+    padding-bottom: 20px;
+    text-shadow: var(--orange);
 }
 
 .icon3{
-    font-size: 190px;
-    padding-left: 60%;
+    font-size: 170px;
     color: #fff;
-    text-shadow: var(--eight);
-    padding-top: 100px;
-    padding-bottom: 100px;
-
+	text-align:center;
+    padding: 2%;
+    padding-bottom: 20px;
+    text-shadow: var(--blue);
 }
 
 /*PROBLEM*/
@@ -185,12 +191,13 @@ body{
 }
 
 .prob p{
-    font-size: 23px;
+    font-size: 20px;
     color: var(--six);
-    font-family:'Poiret One', cursive;
+    font-family:'Poppins', sans-serif;
     text-align: center;
-    padding: 15px;
+    padding: 11px;
 }
+
 
 /*THE PRODUCT*/
 .sol{
@@ -199,9 +206,10 @@ body{
 
 .sol h1{
     font-size: 70px;
-    color: var(--eight);
+    color: var(--seven);
     font-family: 'Raleway', sans-serif;
     padding-bottom: 25px;
+    text-shadow: var(--pink);
 }
 
 .sol img{
@@ -211,8 +219,8 @@ body{
 }
 
 .sol p{
-    font-size: 23px;
+    font-size: 20px;
     color: var(--seven);
-    font-family:'Poiret One', cursive;
-    padding: 10px;
+    font-family:'Poppins', sans-serif;
+    padding: 15px;
 }
