@@ -50,6 +50,15 @@ body {
     background-color: var(--two);
 }
 
+.mainBod{
+	display: none;
+}
+
+/*LOADER*/
+.load{
+    background-color: var(--two);
+}
+
 /* NAVBAR */
 #fp-nav ul li a span {
     background-color: var(--five) !important;

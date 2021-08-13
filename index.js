@@ -7,3 +7,15 @@ var myFullpage = new fullpage('#fullpage', {
     navigationTooltips: ['Home', 'About Spaceffic', 'The Problem', 'Our Solution'],
     css3: false
 });
+
+// LOADER
+    
+var myVar;
+function myFunction() {
+   myVar = setTimeout(showPage, 6000);
+}
+ 
+function showPage() {
+   document.getElementById("load").style.display = "none";
+   document.getElementById("mainBod").style.display = "block";
+} 
