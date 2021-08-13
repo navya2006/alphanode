@@ -12,7 +12,7 @@ var myFullpage = new fullpage('#fullpage', {
     
 var myVar;
 function myFunction() {
-   myVar = setTimeout(showPage, 7000);
+   myVar = setTimeout(showPage, 6000);
 }
 
 function showPage() {

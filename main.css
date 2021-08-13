@@ -57,6 +57,14 @@ body {
 /*LOADER*/
 .load{
     background-color: var(--two);
+    overflow-x: hidden;
+}
+
+.load img{
+    box-align: center;
+    padding: 5%;
+    margin-top: 10%;
+    height: 550px;
 }
 
 .section-hr {
