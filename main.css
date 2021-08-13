@@ -59,6 +59,11 @@ body {
     background-color: var(--two);
 }
 
+.section-hr {
+    border-color: var(--eight) !important;
+    width: 30%;
+}
+
 /* NAVBAR */
 #fp-nav ul li a span {
     background-color: var(--five) !important;
@@ -177,7 +182,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(images/normal.gif);
+    background-image: url(images/gif.gif);
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -226,4 +231,73 @@ body {
     color: var(--seven);
     font-family: 'Poppins', sans-serif;
     padding: 15px;
+}
+
+/*TEAM*/
+.team{
+    color: var(--seven);
+}
+
+.team h2{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300px;
+    color: #fff;
+}
+
+.imgcontainer {
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    margin: 15px 5px;
+}
+
+.head-info {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.05);
+    margin: 20px;
+}
+
+.event-abt .head-info {
+    padding: 0px;
+    margin: 10px;
+}
+
+.head-img {
+    border-radius: 50%;
+    height: 30vh;
+    width: 30vh;
+}
+
+.head-text {
+	font-family: 'Poppins', sans-serif;
+}
+
+.head-text p {
+    font-size: 14px;
+}
+
+.head-text h4 {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.head-text h5 {
+    font-size: 18px;
+}
+
+.head-text h6 {
+    font-size: 16px;
+}
+
+.heads-hr {
+    width: 50%;
+    border-color: var(--eight) !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
