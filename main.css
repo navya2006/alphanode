@@ -61,10 +61,8 @@ body {
 }
 
 .load img{
-    box-align: center;
-    padding: 5%;
-    margin-top: 10%;
     height: 550px;
+    margin-top: 7%;
 }
 
 .section-hr {
