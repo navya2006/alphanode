@@ -272,8 +272,8 @@ body {
     content: "";
 }
 
-.teaser iframe{
-    border: none;
+.teaser video{
+    width: 100%;
 }
 
 /*TEAM*/
