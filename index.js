@@ -16,6 +16,5 @@ function myFunction() {
 }
 
 function showPage() {
-   document.getElementById("load").style.display = "none";
-   document.getElementById("mainBod").style.display = "block";
+   document.getElementById("load").style.transform = "translateY(-200vh)";
 } 
