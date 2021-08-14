@@ -254,6 +254,28 @@ body {
     padding: 15px;
 }
 
+/*TEASER*/
+.teaser{
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.teaser::before {
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(images/something.gif);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    content: "";
+}
+
+.teaser iframe{
+    border: none;
+}
+
 /*TEAM*/
 .team{
     color: var(--seven);
